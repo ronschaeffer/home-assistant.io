@@ -29,7 +29,7 @@ tts:
 
 API key obtaining process described in corresponding documentation:
 
-* [Text-to-Speach](https://cloud.google.com/text-to-speech/docs/quickstart-protocol)
+* [Text-to-Speech](https://cloud.google.com/text-to-speech/docs/quickstart-protocol)
 * [Speach-to-Text](https://cloud.google.com/speech-to-text/docs/quickstart-protocol)
 * [Geocoding](https://cloud.google.com/translate/docs/quickstart)
 
