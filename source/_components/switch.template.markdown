@@ -9,7 +9,7 @@ logo: home-assistant.png
 ha_qa_scale: internal
 ---
 
-The `template` platform creates switches that combines components.
+The `template` platform creates switches that combine components.
 
 For example, if you have a garage door with a toggle switch that operates the motor and a sensor that allows you know whether the door is open or closed, you can combine these into a switch that knows whether the garage door is open or closed.
 
