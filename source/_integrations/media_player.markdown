@@ -33,6 +33,22 @@ Available services: `turn_on`, `turn_off`, `toggle`, `volume_up`, `volume_down`,
 | `entity_id`            |      yes | Target a specific media player. To target all media players, use `all`. |
 | `volume_level`         |       no | Float for volume level. Range 0..1               |
 
+#### Service `media_player.volume_up`
+
+Increases `volume_level` by 0.02 relative to the current `volume_level`.
+
+| Service data attribute | Optional | Description                                      |
+|------------------------|----------|--------------------------------------------------|
+| `entity_id`            |      yes | Target a specific media player. To target all media players, use `all`. |           |
+
+#### Service `media_player.volume_down`
+
+Decreases `volume_level` by 0.02 relative to the current `volume_level`.
+
+| Service data attribute | Optional | Description                                      |
+|------------------------|----------|--------------------------------------------------|
+| `entity_id`            |      yes | Target a specific media player. To target all media players, use `all`. |           |
+
 #### Service `media_player.media_seek`
 
 | Service data attribute | Optional | Description                                            |
